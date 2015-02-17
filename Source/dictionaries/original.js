@@ -4,6 +4,6 @@ var dictionary={
 	},
 
 	"expressions": {
-		"\\b[Tt]his[^.,]*?(?=([Ii]s|[Cc]an|[Ww]ill|[Mm]ight|[Ss]hould|[Dd]id|[Dd]oes))\\b" : "Lawrence "
+		"\\bThis(([^.,?!-;:]*?(?=(\\b(is|can|was|will|might|should|would|did|does|on|in)\\b))))" : "Lawrence "
 	}
 };

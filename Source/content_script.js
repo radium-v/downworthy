@@ -37,7 +37,7 @@
 
 		// regex replacements
 		for(original in expressions) {
-			regex = new RegExp(original, "g");
+			regex = new RegExp(original, "gi");
 			if (v.match(regex)) {
 				v = v.replace(regex, expressions[original]);
 				matchFound = true;
